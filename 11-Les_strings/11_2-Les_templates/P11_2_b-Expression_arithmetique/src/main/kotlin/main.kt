@@ -1,3 +1,6 @@
 fun main() {
-    // write your code here
+    val n = 1
+    val b = 234
+    print("$n plus $b "+ "égal "+ " ${n+b}")
+
 }
