@@ -1,4 +1,6 @@
-// write your function here
+fun isGreater (a: Int,b: Int,c: Int,d: Int): Boolean{
+    return (a+b > c+d)
+}
 
 fun main() {
     val number1 = readLine()!!.toInt()

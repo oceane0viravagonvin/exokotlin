@@ -7,6 +7,7 @@ fun totalLembas(first: String, second: String) {
 fun main() {
     val breadFromFrodo = readln()
     val breadFromSam = readln()
+    totalLembas(breadFromFrodo,breadFromSam)
 
     // write your code here
 

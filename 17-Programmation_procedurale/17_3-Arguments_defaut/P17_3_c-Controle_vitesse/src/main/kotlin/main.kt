@@ -1,5 +1,12 @@
-fun checkSpeed(...) {
-    // write your code here
+fun checkSpeed(speed: Int, limit:Int=60) {
+    val voiture : Int
+    if (speed > limit){
+        voiture = speed - limit
+        return println("Exceeds the limit by $voiture kilometers per hour")
+
+    }else{
+        return println("Within the limit")
+    }
 }
 
 fun main() {
